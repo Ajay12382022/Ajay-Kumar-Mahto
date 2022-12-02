@@ -1,0 +1,50 @@
+body {
+    height: 100%;
+}
+
+#life {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgb(140, 56, 153), rgb(187, 89, 177) );
+    z-index: 1;
+}
+
+.respect{
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+
+#clock {
+    position: absolute;
+    font-size: 100px;
+    width: 850px;
+    margin: 200px;
+    text-align: center;
+    color: rgb(238, 69, 162);
+    background-image: linear-gradient(to right, rgb(213, 159, 238) rgb(236, 111, 194));
+    font-family: "Orbitron", "Helvetica Neue","Sans-srif";
+    border: 5px solid rgb(221, 208, 233);
+    border-radius: 20px;
+    z-index: 2;
+    background-color: rgb(131, 118, 143);
+}
+
+#clock:hover {
+    position: absolute;
+    font-size: 100px;
+    width: 850px;
+    margin: 200px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(to right, rgb(182, 151, 196) rgb(200,191,197));
+    font-family: "Orbitron", "Helvetica Neue","Sans-srif";
+    border: 5px solid rgb(239, 230, 248);
+    border-radius: 20px;
+    z-index: 2;
+}
