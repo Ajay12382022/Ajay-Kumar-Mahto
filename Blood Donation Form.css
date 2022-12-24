@@ -1,0 +1,87 @@
+
+div.blood {
+    width: 100%;
+    margin: 100px auto 0px auto;
+    background-color: rgb(206, 226, 226);
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+input {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  text-align: left;
+  border: 2px solid rgb(255, 0, 157);
+  background: rgb(247, 247, 252);
+  box-shadow: 1px 1px 2px rgb(205, 219, 184) ;
+  border-radius: 5px;
+  padding: 5px 25px;
+  display: inline-block;
+  cursor: pointer;
+  justify-content: center;
+  box-sizing: 100px 250px;
+  width: 1300px;
+  height: 25px;
+}
+
+textarea  {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    text-align: left;
+    border: 2px solid rgb(49, 201, 11);
+    background: rgb(246, 246, 252);
+    box-shadow: 1px 1px 2px rgb(205, 219, 184) ;
+    border-radius: 5px;
+    padding: 5px 25px;
+    display: inline-block;
+    cursor: pointer;
+    justify-content: center;
+    box-sizing: 100px 250px;
+  }
+ 
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    border: 2px solid rgb(100, 100, 228);
+    background: rgb(219, 17, 142);
+    box-shadow: 5px 5px 11px rgb(14, 24, 1) ;
+    border-radius: 5px;
+    padding:  8px 41px;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 185px;
+    font-size: 15px;
+}  
+
+select {
+    background-color: rgb(29, 238, 98);
+    width: 1300px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+option {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-align: left;
+    border: 2px solid rgb(245, 1, 1);
+    background: rgb(245, 7, 174);
+    box-shadow: 5px 5px 11px rgb(217, 255, 47) ;
+    border-radius: 5px;
+    padding:  8px 41px;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 185px;
+    font-size: 15px;
+}
+
+  
+   
