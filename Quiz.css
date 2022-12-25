@@ -1,0 +1,52 @@
+
+
+  div  {
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif; 
+}
+h2 {
+    color: rgb(108, 216, 243);
+}
+h4 {
+    color: black;
+}
+h3 {
+    color: red;
+}
+h1 {
+    color: rgb(9, 224, 224);
+}
+
+input {
+    width: 500px;
+    height: 25px;
+    border-color: rgb(82, 74, 74);
+    border-radius: 5px;
+}
+button {
+    background-color: rgb(50, 217, 223);
+    text-align: center;
+    -webkit-text-fill-color: rgb(252, 15, 133);
+    box-sizing: content-box;
+    border-radius: 5px;
+    border-color: green;
+    font-size: 15px;
+    width: 150px;
+}
+
+.love grid {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column-reverse; 
+    
+    justify-content: left;
+    
+}
+
+  .grid {
+    -webkit-text-fill-color: rgb(235, 31, 31);
+    background-color: none;
+    flex-direction: column-reverse;
+}
