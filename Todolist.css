@@ -1,0 +1,110 @@
+:root {
+    --mainWhite: #eedddd;
+    --mainGreen: #1ef08b;
+    --mainBlack: #333333;
+    --mainRed:  #ec1c1c;
+    --mainBlue: #11b5e4;
+}
+
+.family {
+  height: 100vh;
+    display: flex;
+    flex-direction: top;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+      
+.input-group {
+  height: 150px;
+  width: 900px;
+  background-color: #11b5e4 ;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+} 
+h2 {
+  color: white;
+}
+
+input {
+  background-color: #f7f1f1;
+  height: 30px;
+  width: 700px;
+  border-radius: 4px;
+}
+
+.input-group text {
+  background-color: #ec1c1c;
+}
+
+body {
+    background: var(--mainWhite);
+    color: #333333;
+  }
+  .btn-green {
+    height: 30px;
+    width: 60PX;
+    border-color: var(--mainGreen);
+    background: white;
+    color: var(--mainGreen);
+    color: rgb(24, 22, 22);
+    border-radius: 5px;
+  }
+  .btn-sky {
+    height: 30px;
+    width: 100PX;
+    border-color: green;
+    background: white;
+    color: var(--mainGreen);
+    color: black;
+    border-radius: 5px;
+  }
+
+  .btn-green:hover {
+    background: var(--mainGreen);
+    color: var(--mainBlack);
+  }
+  .form-control {
+    border-color: var(--mainGreen) !important;
+  }
+  
+  .feedback {
+    display: none;
+  }
+  .item {
+    display: flex;
+    justify-content: space-between;
+  }
+  .item-icon {
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  .complete-item {
+    color: var(--mainGreen);
+  }
+  .complete-item:hover {
+    color: var(--mainGreen);
+  }
+  .edit-item {
+    color: var(--mainBlue);
+  }
+  .edit-item:hover {
+    color: var(--mainBlue);
+  }
+  .delete-item {
+    color: var(--mainRed);
+  }
+  .delete-item:hover {
+    color: var(--mainRed);
+  }
+  .completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
+  .visibility {
+    opacity: 0.5;
+  }
+  .showItem {
+    display: block;
+  }

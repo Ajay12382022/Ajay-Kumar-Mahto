@@ -1,0 +1,69 @@
+{
+    margin: 0;
+    padding: 0;
+}
+.family {
+    background: #867575;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+h1 {
+    height: 10px;
+    color: transparent;
+    text-align: center;
+
+}
+   .love {
+    background-color: rgb(176, 141, 209);
+    width: 375px;
+    height: 375px;
+    border-radius: 50%;
+    animation-name: shine;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+     text-align: left;
+     align-items: center;
+}
+
+@keyframes shine{
+    0%,100%{
+        box-shadow: 0px 0px 32px -12px rgb(36, 33, 233);
+    }
+    50%{
+        box-shadow: 0px 0px 32px 3px rgb(230, 41, 135);
+    }
+}
+#stopwatch{
+    font-size: 90px;
+    padding: 60px;
+    color: rgb(46, 26, 121);
+     margin-bottom: 10px;
+     text-align: center;
+     justify-content: center;
+
+}
+#buttons{
+    display: flex;
+}
+button{
+    padding: 20px;
+    background-color: #29861c;
+    border: solid white;
+    border-radius: 30px ;
+    color: white;
+    font-size: larger;
+    margin: 10px;
+    width:150px;
+    transition: all 0.5s;
+}
+button:hover{
+    cursor:pointer;
+}
+button:active{
+    box-shadow: none;
+    transition: all 0.5;
+}
